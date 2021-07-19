@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+/*Buttons are centered*/
+.container {
+  display: block;
+  width: 73%;
+  margin: auto;
+
+}
+
+.col-sm-6{
+  flex:none;
+}
+
+.row{
+  display:block;
+}
+
+/*display changed to inline block*/
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 205px;
+  width: 205px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+/*class to be added when we choose a wrong option*/
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/*button effect when the user clicks a button*/
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.win {
+  font-size: 2.3rem;
+  color: #fddb3a;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.loose {
+  font-size: 2.3rem;
+  color: #cffffe;
+  font-family: 'Press Start 2P', cursive;
+}
