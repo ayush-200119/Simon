@@ -27,7 +27,7 @@ body {
 }
 
 /*display changed to inline block*/
-.btn {
+.row .btn {
   margin: 15px;
   display: inline-block;
   height: 205px;
